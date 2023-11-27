@@ -1,0 +1,308 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana;
+}
+header h1 {
+  font-weight: 700;
+  letter-spacing: 15px;
+  float: left;
+  padding: 15px 0px;
+  color: rgb(67, 43, 173);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header ul {
+  float: right;
+  font-weight: 500;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+header ul li {
+  display: inline-block;
+}
+header ul li a {
+  padding: 25px 20px;
+  display: inline-block;
+}
+header ul li a:hover {
+  background-color: rgb(67, 43, 173);
+  color: white;
+}
+.active {
+  background-color: rgb(67, 43, 173);
+  color: white;
+}
+.banner {
+  height: 65vh;
+  background-image: url("../TELEKFH/banner.jpg");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(67, 43, 173, 0.7);
+}
+.banner h2 {
+  color: white;
+  letter-spacing: 6px;
+  z-index: 1;
+  text-align: center;
+  padding: 180px 25px;
+}
+.banner a {
+  z-index: 1;
+  text-align: bottom;
+  align-items: center;
+  font-weight: 700;
+  display: inline-block;
+  color: white;
+}
+.banner a:hover {
+  color: rgb(67, 43, 173);
+  background-color: white;
+}
+section {
+  padding: 50px 0;
+  z-index: 1;
+}
+footer {
+  justify-content: center;
+  align-items: center;
+}
+footer h2 {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 4px;
+  color: rgb(67, 43, 173);
+  padding: 20px 0;
+}
+.Daftar__Isi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fff;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(67, 43, 173);
+  border: #f5f5f5;
+}
+.Main__Article {
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(67, 43, 173, 0.6);
+}
+.Main__Text {
+  z-index: 1;
+  letter-spacing: 2px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+}
+
+.Daftar__Isi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(67, 43, 173);
+  border: #f5f5f5;
+}
+.Proses_Bisnis {
+  text-align: center;
+  color: rgb(67, 43, 173);
+  padding-top: 45px;
+  padding-bottom: 9 0;
+}
+
+.Definisi {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Proses {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Manfaat {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Video {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Contoh {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.h2 {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.about {
+  height: 30vh;
+  background-image: url("../TELEKFH/banner.jpg");
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(67, 43, 173, 0.7);
+}
+.about h2 {
+  color: white;
+  letter-spacing: 6px;
+  z-index: 1;
+  text-align: center;
+  padding: 180px 25px;
+}
+.Bidang_Bisnis {
+  text-align: center;
+  color: rgb(67, 43, 173);
+  padding-top: 45px;
+  padding-bottom: 9 0;
+}
+
+.Bidang_Bisnis_Isi {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.Bidang_Bisnis_Isi h2 {
+  font-size: 25px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.teamwork_isi {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+}
+.teamwork h2 {
+  text-align: center;
+  color: rgb(67, 43, 173);
+  padding: 30px 0;
+}
+.hilmi {
+  border: 1px solid;
+  color: rgb(67, 43, 173);
+}
+.hilmi .col-4 {
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid;
+}
+
+.hilmi .col-4 h3 {
+  margin: 10px 0;
+}
+
+.Source{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  color: blue;
+  text-decoration: underline;
+}
+.Source h3{
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px;
+  color: black;
+  text-decoration: none;
+}
+.button{
+  display: inline-block;
+
+}
